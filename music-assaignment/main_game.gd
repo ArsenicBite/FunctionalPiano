@@ -69,7 +69,7 @@ func _on_10_pressed() -> void:
 	counter += 1
 
 func _on_11_pressed() -> void:
-	$"11".play()
+	$"(11)".play()
 	counter += 1
 
 func _on_12_pressed() -> void:
@@ -85,7 +85,7 @@ func _on_14_pressed() -> void:
 	counter += 1
 
 func _on_15_pressed() -> void:
-	$"15".play()
+	$"(15)".play()
 	counter += 1
 
 func _on_16_pressed() -> void:
