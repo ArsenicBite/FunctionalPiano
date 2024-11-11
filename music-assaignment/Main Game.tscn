@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://f4l24y60fp4l"]
+[gd_scene load_steps=50 format=3 uid="uid://f4l24y60fp4l"]
 
 [ext_resource type="Script" path="res://main_game.gd" id="1_12jo7"]
 [ext_resource type="Texture2D" uid="uid://ddjsjggigx3fy" path="res://LIANOtopview_1024x1024.webp" id="1_kd62o"]
@@ -12,7 +12,43 @@
 [ext_resource type="AudioStream" uid="uid://cfltsm1fb31cm" path="res://Sounds/448600__tedagame__d2.ogg" id="10_ffb5u"]
 [ext_resource type="AudioStream" uid="uid://c3tyl8oo7gbc1" path="res://Sounds/448615__tedagame__e2.ogg" id="11_xxei3"]
 [ext_resource type="AudioStream" uid="uid://deiyrb84wj558" path="res://Sounds/448587__tedagame__f2.ogg" id="12_xg3id"]
-[ext_resource type="AudioStream" uid="uid://bw0owcquwjouw" path="res://Sounds/448558__tedagame__g2.ogg" id="13_1vvyd"]
+[ext_resource type="AudioStream" uid="uid://b7actkqudtsho" path="res://Sounds/448563__tedagame__a2.ogg" id="14_ouk23"]
+[ext_resource type="AudioStream" uid="uid://bhbjqk7lp5sa" path="res://Sounds/448569__tedagame__b2.ogg" id="15_r58ax"]
+[ext_resource type="AudioStream" uid="uid://dd1bodc004n1f" path="res://Sounds/448538__tedagame__c3.ogg" id="16_1nok0"]
+[ext_resource type="AudioStream" uid="uid://c6mrdgj74wbi3" path="res://Sounds/448601__tedagame__d3.ogg" id="17_faqgf"]
+[ext_resource type="AudioStream" uid="uid://dpcslrkxjcbs3" path="res://Sounds/448614__tedagame__e3.ogg" id="18_kpdx3"]
+[ext_resource type="AudioStream" uid="uid://ced0o2q8p0j6c" path="res://Sounds/448559__tedagame__g3.ogg" id="19_c354q"]
+[ext_resource type="AudioStream" uid="uid://yu6uh8ls3p71" path="res://Sounds/448584__tedagame__f3.ogg" id="19_drbr0"]
+[ext_resource type="AudioStream" uid="uid://n24cnw8juhc3" path="res://Sounds/448562__tedagame__a3.ogg" id="20_ajfda"]
+[ext_resource type="AudioStream" uid="uid://cvfg406btmxlm" path="res://Sounds/448539__tedagame__c4.ogg" id="21_7nmdb"]
+[ext_resource type="AudioStream" uid="uid://dmkkbbuvg38cg" path="res://Sounds/448568__tedagame__b3.ogg" id="21_cwtlx"]
+[ext_resource type="AudioStream" uid="uid://dfawt63xw3u6s" path="res://Sounds/448602__tedagame__d4.ogg" id="23_vnlxx"]
+[ext_resource type="AudioStream" uid="uid://cu5pq5twp3fdy" path="res://Sounds/448613__tedagame__e4.ogg" id="24_jooek"]
+[ext_resource type="AudioStream" uid="uid://c4benb3e2uppt" path="res://Sounds/448585__tedagame__f4.ogg" id="25_kobob"]
+[ext_resource type="AudioStream" uid="uid://k63mrja80jbk" path="res://Sounds/448552__tedagame__g4.ogg" id="26_q1c0w"]
+[ext_resource type="AudioStream" uid="uid://boe1rh2joft13" path="res://Sounds/448561__tedagame__a4.ogg" id="27_8k2k6"]
+[ext_resource type="AudioStream" uid="uid://ekalt08r41bh" path="res://Sounds/448532__tedagame__c5.ogg" id="28_7kxyp"]
+[ext_resource type="AudioStream" uid="uid://ykk6glnxpp7g" path="res://Sounds/448603__tedagame__d5.ogg" id="29_757j0"]
+[ext_resource type="AudioStream" uid="uid://dylvgiebnnexl" path="res://Sounds/448612__tedagame__e5.ogg" id="30_ntvro"]
+[ext_resource type="AudioStream" uid="uid://dainjuumvimiv" path="res://Sounds/448582__tedagame__f5.ogg" id="31_1g0db"]
+[ext_resource type="AudioStream" uid="uid://cx7u305rlv25" path="res://Sounds/448553__tedagame__g5.ogg" id="32_4ei0h"]
+[ext_resource type="AudioStream" uid="uid://kkqjrjb1xk7o" path="res://Sounds/448560__tedagame__a5.ogg" id="33_75w73"]
+[ext_resource type="AudioStream" uid="uid://c7tgj77fmygnu" path="res://Sounds/448537__tedagame__b5.ogg" id="34_2old6"]
+[ext_resource type="AudioStream" uid="uid://cq3glfgdnqstu" path="res://Sounds/448533__tedagame__c6.ogg" id="35_ftnht"]
+[ext_resource type="AudioStream" uid="uid://m0svg4c76hbo" path="res://Sounds/448604__tedagame__d6.ogg" id="36_2hn5m"]
+[ext_resource type="AudioStream" uid="uid://d4h2bop4qisbr" path="res://Sounds/448611__tedagame__e6.ogg" id="37_5veic"]
+[ext_resource type="AudioStream" uid="uid://byb53nd3306ft" path="res://Sounds/448583__tedagame__f6.ogg" id="38_xk3oo"]
+[ext_resource type="AudioStream" uid="uid://24nrumcd6xab" path="res://Sounds/448554__tedagame__g6.ogg" id="39_533b6"]
+[ext_resource type="AudioStream" uid="uid://cqg4yoxnag6re" path="res://Sounds/448567__tedagame__a6.ogg" id="40_xhpt8"]
+[ext_resource type="AudioStream" uid="uid://dqhe2n2mvj32f" path="res://Sounds/448534__tedagame__b6.ogg" id="41_x5qbj"]
+[ext_resource type="AudioStream" uid="uid://dmkw6jcnil0ac" path="res://Sounds/448545__tedagame__c7.ogg" id="42_3y0nb"]
+[ext_resource type="AudioStream" uid="uid://dy2fnkgdjieeg" path="res://Sounds/448605__tedagame__d7.ogg" id="43_4m0lq"]
+[ext_resource type="AudioStream" uid="uid://cr0jfw30ak2by" path="res://Sounds/448610__tedagame__e7.ogg" id="44_ok810"]
+[ext_resource type="AudioStream" uid="uid://edfb6x6xsgw1" path="res://Sounds/448580__tedagame__f7.ogg" id="45_sexdd"]
+[ext_resource type="AudioStream" uid="uid://dvqtx6ohh7obx" path="res://Sounds/448555__tedagame__g7.ogg" id="46_sqwaw"]
+[ext_resource type="AudioStream" uid="uid://cjpnjywndl8ta" path="res://Sounds/448566__tedagame__a7.ogg" id="47_o7tkm"]
+[ext_resource type="AudioStream" uid="uid://cq1j53v4c7d5w" path="res://Sounds/448535__tedagame__b7.ogg" id="48_w4ayq"]
+[ext_resource type="AudioStream" uid="uid://cfssshrytnrnr" path="res://Sounds/448543__tedagame__c8.ogg" id="49_yddmm"]
 
 [node name="MainGame" type="Node2D"]
 script = ExtResource("1_12jo7")
@@ -420,7 +456,140 @@ stream = ExtResource("11_xxei3")
 stream = ExtResource("12_xg3id")
 
 [node name="(12)" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("13_1vvyd")
+stream = ExtResource("14_ouk23")
+
+[node name="(13)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_r58ax")
+
+[node name="(14)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_1nok0")
+
+[node name="(15)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_faqgf")
+
+[node name="(16)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18_kpdx3")
+
+[node name="(17)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_drbr0")
+
+[node name="(18)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_c354q")
+
+[node name="(19)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20_ajfda")
+
+[node name="(20)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_cwtlx")
+
+[node name="(21)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_7nmdb")
+
+[node name="(22)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_vnlxx")
+
+[node name="(23)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24_jooek")
+
+[node name="(24)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("25_kobob")
+
+[node name="(25)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_q1c0w")
+
+[node name="(26)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("27_8k2k6")
+
+[node name="(27)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("28_7kxyp")
+
+[node name="(28)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("29_757j0")
+
+[node name="(29)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("30_ntvro")
+
+[node name="(30)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("31_1g0db")
+
+[node name="(31)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("32_4ei0h")
+
+[node name="(32)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("33_75w73")
+
+[node name="(33)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("34_2old6")
+
+[node name="(34)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("35_ftnht")
+
+[node name="(35)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("36_2hn5m")
+
+[node name="(36)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("37_5veic")
+
+[node name="(37)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("38_xk3oo")
+
+[node name="(38)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("39_533b6")
+
+[node name="(39)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("40_xhpt8")
+
+[node name="(40)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("41_x5qbj")
+
+[node name="(41)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("42_3y0nb")
+
+[node name="(42)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("43_4m0lq")
+
+[node name="(43)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("44_ok810")
+
+[node name="(44)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("45_sexdd")
+
+[node name="(45)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("46_sqwaw")
+
+[node name="(46)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("47_o7tkm")
+
+[node name="(47)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("48_w4ayq")
+
+[node name="(48)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("49_yddmm")
+
+[node name="(49)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("49_yddmm")
+
+[node name="(50)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("49_yddmm")
+
+[node name="(51)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("49_yddmm")
+
+[node name="(52)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("49_yddmm")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 36.0
+offset_top = 329.0
+offset_right = 76.0
+offset_bottom = 352.0
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 18.0
+offset_top = 550.0
+offset_right = 58.0
+offset_bottom = 573.0
+scale = Vector2(1.88721, 2.10345)
 
 [connection signal="pressed" from="1" to="." method="_on_1_pressed"]
 [connection signal="pressed" from="1" to="." method="_on_texture_button_pressed"]
@@ -450,43 +619,86 @@ stream = ExtResource("13_1vvyd")
 [connection signal="pressed" from="11" to="." method="_on_texture_button_pressed"]
 [connection signal="pressed" from="12" to="." method="_on_12_pressed"]
 [connection signal="pressed" from="12" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="13" to="." method="_on_13_pressed"]
 [connection signal="pressed" from="13" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="14" to="." method="_on_14_pressed"]
 [connection signal="pressed" from="14" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="15" to="." method="_on_15_pressed"]
 [connection signal="pressed" from="15" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="16" to="." method="_on_16_pressed"]
 [connection signal="pressed" from="16" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="16" to="." method="_on__pressed"]
+[connection signal="pressed" from="17" to="." method="_on_17_pressed"]
 [connection signal="pressed" from="17" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="18" to="." method="_on_18_pressed"]
 [connection signal="pressed" from="18" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="19" to="." method="_on_19_pressed"]
 [connection signal="pressed" from="19" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="20" to="." method="_on_20_pressed"]
 [connection signal="pressed" from="20" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="21" to="." method="_on_21_pressed"]
 [connection signal="pressed" from="21" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="22" to="." method="_on_22_pressed"]
 [connection signal="pressed" from="22" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="23" to="." method="_on_23_pressed"]
 [connection signal="pressed" from="23" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="23" to="." method="_on__pressed"]
+[connection signal="pressed" from="24" to="." method="_on_24_pressed"]
 [connection signal="pressed" from="24" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="24" to="." method="_on__pressed"]
+[connection signal="pressed" from="25" to="." method="_on_25_pressed"]
 [connection signal="pressed" from="25" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="26" to="." method="_on_26_pressed"]
 [connection signal="pressed" from="26" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="27" to="." method="_on_27_pressed"]
 [connection signal="pressed" from="27" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="28" to="." method="_on_28_pressed"]
 [connection signal="pressed" from="28" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="29" to="." method="_on_29_pressed"]
 [connection signal="pressed" from="29" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="30" to="." method="_on_30_pressed"]
 [connection signal="pressed" from="30" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="31" to="." method="_on_31_pressed"]
 [connection signal="pressed" from="31" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="32" to="." method="_on_32_pressed"]
 [connection signal="pressed" from="32" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="33" to="." method="_on_33_pressed"]
 [connection signal="pressed" from="33" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="34" to="." method="_on_34_pressed"]
 [connection signal="pressed" from="34" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="35" to="." method="_on_35_pressed"]
 [connection signal="pressed" from="35" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="36" to="." method="_on_36_pressed"]
 [connection signal="pressed" from="36" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="37" to="." method="_on_37_pressed"]
 [connection signal="pressed" from="37" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="38" to="." method="_on_38_pressed"]
 [connection signal="pressed" from="38" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="39" to="." method="_on_39_pressed"]
 [connection signal="pressed" from="39" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="40" to="." method="_on_40_pressed"]
 [connection signal="pressed" from="40" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="41" to="." method="_on_41_pressed"]
 [connection signal="pressed" from="41" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="42" to="." method="_on_42_pressed"]
 [connection signal="pressed" from="42" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="43" to="." method="_on_43_pressed"]
 [connection signal="pressed" from="43" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="44" to="." method="_on_44_pressed"]
 [connection signal="pressed" from="44" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="45" to="." method="_on_45_pressed"]
 [connection signal="pressed" from="45" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="46" to="." method="_on_46_pressed"]
 [connection signal="pressed" from="46" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="47" to="." method="_on_47_pressed"]
 [connection signal="pressed" from="47" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="48" to="." method="_on_48_pressed"]
 [connection signal="pressed" from="48" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="49" to="." method="_on_49_pressed"]
 [connection signal="pressed" from="49" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="50" to="." method="_on_50_pressed"]
 [connection signal="pressed" from="50" to="." method="_on_texture_button_pressed"]
+[connection signal="button_down" from="51" to="." method="_on_51_button_down"]
 [connection signal="pressed" from="51" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="52" to="." method="_on_52_pressed"]
 [connection signal="pressed" from="52" to="." method="_on_texture_button_pressed"]

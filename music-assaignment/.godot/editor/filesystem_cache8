@@ -1,23 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731328055
+::res://::1731333964
 about.tscn::PackedScene::3198513705532076126::1731327789::0::1::::<><>::
 HomePage.tscn::PackedScene::8870926101268057714::1731327787::0::1::::<><>::uid://d0qov4kejacwx::::res://Buttons/play01.png<>res://home_page.gd<>uid://cow0j7qwle5rs::::res://Buttons/play03.png<>uid://boykru8bmph0p::::res://Buttons/about01.png<>uid://b0oe4quonqmfe::::res://Buttons/information01.png<>res://play.gd<>uid://sf3v7otaafoj::::res://Buttons/about03.png<>uid://m8jkakb3uian::::res://Buttons/information03.png
 home_page.gd::GDScript::-1::1731327789::0::1::::<>Node2D<>::
 icon.svg::CompressedTexture2D::3321110534535754226::1731327789::1731328057::1::::<><>::
 information.tscn::PackedScene::5840714405008834825::1731327789::0::1::::<><>::
 LIANOtopview_1024x1024.webp::CompressedTexture2D::7389517284576244042::1731327787::1731328057::1::::<><>::
-Main Game.tscn::PackedScene::411528838108340281::1731327787::0::1::::<><>::res://main_game.gd<>uid://ddjsjggigx3fy::::res://LIANOtopview_1024x1024.webp<>uid://cjjdt86aolnfx::::res://Sounds/448540__tedagame__c1.ogg<>uid://dtur21d2nvtcw::::res://Sounds/448542__tedagame__d1.ogg<>uid://da0e4je3bwt27::::res://Sounds/448616__tedagame__e1.ogg<>uid://dejj77658ssw8::::res://Sounds/448586__tedagame__f1.ogg<>uid://jd7yefreyk0s::::res://Sounds/448591__tedagame__g1.ogg<>uid://6gt6m7kacnyn::::res://Sounds/448578__tedagame__a1.ogg<>uid://dexivp2ccryua::::res://Sounds/448541__tedagame__c2.ogg<>uid://cfltsm1fb31cm::::res://Sounds/448600__tedagame__d2.ogg<>uid://c3tyl8oo7gbc1::::res://Sounds/448615__tedagame__e2.ogg<>uid://deiyrb84wj558::::res://Sounds/448587__tedagame__f2.ogg<>uid://bw0owcquwjouw::::res://Sounds/448558__tedagame__g2.ogg
-main_game.gd::GDScript::-1::1731327789::0::1::::<>Node2D<>::
+Main Game.tscn::PackedScene::411528838108340281::1731330304::0::1::::<><>::res://main_game.gd<>uid://ddjsjggigx3fy::::res://LIANOtopview_1024x1024.webp<>uid://cjjdt86aolnfx::::res://Sounds/448540__tedagame__c1.ogg<>uid://dtur21d2nvtcw::::res://Sounds/448542__tedagame__d1.ogg<>uid://da0e4je3bwt27::::res://Sounds/448616__tedagame__e1.ogg<>uid://dejj77658ssw8::::res://Sounds/448586__tedagame__f1.ogg<>uid://jd7yefreyk0s::::res://Sounds/448591__tedagame__g1.ogg<>uid://6gt6m7kacnyn::::res://Sounds/448578__tedagame__a1.ogg<>uid://dexivp2ccryua::::res://Sounds/448541__tedagame__c2.ogg<>uid://cfltsm1fb31cm::::res://Sounds/448600__tedagame__d2.ogg<>uid://c3tyl8oo7gbc1::::res://Sounds/448615__tedagame__e2.ogg<>uid://deiyrb84wj558::::res://Sounds/448587__tedagame__f2.ogg<>uid://b7actkqudtsho::::res://Sounds/448563__tedagame__a2.ogg<>uid://bhbjqk7lp5sa::::res://Sounds/448569__tedagame__b2.ogg<>uid://dd1bodc004n1f::::res://Sounds/448538__tedagame__c3.ogg<>uid://c6mrdgj74wbi3::::res://Sounds/448601__tedagame__d3.ogg<>uid://dpcslrkxjcbs3::::res://Sounds/448614__tedagame__e3.ogg<>uid://ced0o2q8p0j6c::::res://Sounds/448559__tedagame__g3.ogg<>uid://yu6uh8ls3p71::::res://Sounds/448584__tedagame__f3.ogg<>uid://n24cnw8juhc3::::res://Sounds/448562__tedagame__a3.ogg<>uid://cvfg406btmxlm::::res://Sounds/448539__tedagame__c4.ogg<>uid://dmkkbbuvg38cg::::res://Sounds/448568__tedagame__b3.ogg<>uid://dfawt63xw3u6s::::res://Sounds/448602__tedagame__d4.ogg<>uid://cu5pq5twp3fdy::::res://Sounds/448613__tedagame__e4.ogg<>uid://c4benb3e2uppt::::res://Sounds/448585__tedagame__f4.ogg<>uid://k63mrja80jbk::::res://Sounds/448552__tedagame__g4.ogg<>uid://boe1rh2joft13::::res://Sounds/448561__tedagame__a4.ogg<>uid://ekalt08r41bh::::res://Sounds/448532__tedagame__c5.ogg<>uid://ykk6glnxpp7g::::res://Sounds/448603__tedagame__d5.ogg<>uid://dylvgiebnnexl::::res://Sounds/448612__tedagame__e5.ogg<>uid://dainjuumvimiv::::res://Sounds/448582__tedagame__f5.ogg<>uid://cx7u305rlv25::::res://Sounds/448553__tedagame__g5.ogg<>uid://kkqjrjb1xk7o::::res://Sounds/448560__tedagame__a5.ogg<>uid://c7tgj77fmygnu::::res://Sounds/448537__tedagame__b5.ogg<>uid://cq3glfgdnqstu::::res://Sounds/448533__tedagame__c6.ogg<>uid://m0svg4c76hbo::::res://Sounds/448604__tedagame__d6.ogg<>uid://d4h2bop4qisbr::::res://Sounds/448611__tedagame__e6.ogg<>uid://byb53nd3306ft::::res://Sounds/448583__tedagame__f6.ogg<>uid://24nrumcd6xab::::res://Sounds/448554__tedagame__g6.ogg<>uid://cqg4yoxnag6re::::res://Sounds/448567__tedagame__a6.ogg<>uid://dqhe2n2mvj32f::::res://Sounds/448534__tedagame__b6.ogg
+main_game.gd::GDScript::-1::1731329587::0::1::::<>Node2D<>::
 play.gd::GDScript::-1::1731327789::0::1::::<>TextureButton<>::
 vector-illustration-piano-keys-top-260nw-1118871320.webp::CompressedTexture2D::3231672806740465427::1731327789::1731328057::1::::<><>::
-::res://Buttons/::1731327998
+::res://Buttons/::1731328057
 about01.png::CompressedTexture2D::3419248190654655509::1731327787::1731328057::1::::<><>::
 about03.png::CompressedTexture2D::1275460354962091353::1731327787::1731328057::1::::<><>::
 information01.png::CompressedTexture2D::4170338591118857198::1731327787::1731328057::1::::<><>::
 information03.png::CompressedTexture2D::910954915946000685::1731327787::1731328057::1::::<><>::
 play01.png::CompressedTexture2D::8947902264484772635::1731327787::1731328057::1::::<><>::
 play03.png::CompressedTexture2D::5802437192350823004::1731327787::1731328057::1::::<><>::
-::res://Sounds/::1731327998
+::res://Sounds/::1731328057
 _readme_and_license.txt::TextFile::-1::1731327789::0::1::::<><>::
 448532__tedagame__c5.ogg::AudioStreamOggVorbis::301419833912700905::1731327787::1731328057::1::::<><>::
 448533__tedagame__c6.ogg::AudioStreamOggVorbis::5954049660437852818::1731327787::1731328057::1::::<><>::
