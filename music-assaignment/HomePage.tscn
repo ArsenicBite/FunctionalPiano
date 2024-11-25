@@ -1,22 +1,18 @@
-[gd_scene load_steps=9 format=3 uid="uid://dyne4eq26lffm"]
+[gd_scene load_steps=5 format=3 uid="uid://dyne4eq26lffm"]
 
 [ext_resource type="Script" path="res://home_page.gd" id="1_uhyve"]
 [ext_resource type="Texture2D" uid="uid://w3llrc7f6c5n" path="res://Buttons/Unpressed.png" id="2_mdpmb"]
-[ext_resource type="Texture2D" uid="uid://boykru8bmph0p" path="res://Buttons/about01.png" id="3_3kih0"]
-[ext_resource type="Texture2D" uid="uid://b0oe4quonqmfe" path="res://Buttons/information01.png" id="3_5edre"]
 [ext_resource type="Script" path="res://play.gd" id="3_gpnl3"]
 [ext_resource type="Texture2D" uid="uid://0iyhk1vr1fr6" path="res://Buttons/Pressed2.png" id="3_k7a5j"]
-[ext_resource type="Texture2D" uid="uid://sf3v7otaafoj" path="res://Buttons/about03.png" id="4_t617l"]
-[ext_resource type="Texture2D" uid="uid://m8jkakb3uian" path="res://Buttons/information03.png" id="4_xd6mt"]
 
 [node name="Scene" type="Node2D"]
 script = ExtResource("1_uhyve")
 
 [node name="Play" type="TextureButton" parent="."]
-offset_left = 24.0
-offset_top = 564.0
-offset_right = 168.0
-offset_bottom = 636.0
+offset_left = 487.0
+offset_top = 277.0
+offset_right = 631.0
+offset_bottom = 349.0
 scale = Vector2(1.06986, 1.05474)
 texture_normal = ExtResource("2_mdpmb")
 texture_hover = ExtResource("3_k7a5j")
@@ -24,22 +20,4 @@ stretch_mode = 0
 script = ExtResource("3_gpnl3")
 metadata/_edit_use_anchors_ = true
 
-[node name="Information" type="TextureButton" parent="."]
-offset_left = 988.0
-offset_top = 570.0
-offset_right = 1132.0
-offset_bottom = 642.0
-texture_normal = ExtResource("3_5edre")
-texture_hover = ExtResource("4_xd6mt")
-
-[node name="About" type="TextureButton" parent="."]
-offset_left = 494.0
-offset_top = 560.0
-offset_right = 638.0
-offset_bottom = 632.0
-texture_normal = ExtResource("3_3kih0")
-texture_hover = ExtResource("4_t617l")
-
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="Information" to="." method="_on_information_pressed"]
-[connection signal="pressed" from="About" to="." method="_on_about_pressed"]
