@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=3 uid="uid://f4l24y60fp4l"]
+[gd_scene load_steps=51 format=3 uid="uid://f4l24y60fp4l"]
 
 [ext_resource type="Script" path="res://main_game.gd" id="1_12jo7"]
 [ext_resource type="Texture2D" uid="uid://ddjsjggigx3fy" path="res://LIANOtopview_1024x1024.webp" id="1_kd62o"]
@@ -49,6 +49,7 @@
 [ext_resource type="AudioStream" uid="uid://cjpnjywndl8ta" path="res://Sounds/448566__tedagame__a7.ogg" id="47_o7tkm"]
 [ext_resource type="AudioStream" uid="uid://cq1j53v4c7d5w" path="res://Sounds/448535__tedagame__b7.ogg" id="48_w4ayq"]
 [ext_resource type="AudioStream" uid="uid://cfssshrytnrnr" path="res://Sounds/448543__tedagame__c8.ogg" id="49_yddmm"]
+[ext_resource type="PackedScene" uid="uid://c22vhpq2bejq4" path="res://h_slider.tscn" id="50_8d6dq"]
 
 [node name="MainGame" type="Node2D"]
 script = ExtResource("1_12jo7")
@@ -590,6 +591,22 @@ offset_top = 550.0
 offset_right = 58.0
 offset_bottom = 573.0
 scale = Vector2(1.88721, 2.10345)
+
+[node name="HSlider" parent="." instance=ExtResource("50_8d6dq")]
+offset_left = 581.0
+offset_top = 458.0
+offset_right = 1152.0
+offset_bottom = 731.0
+value = 1.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="HSlider"]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 52.0
+offset_right = 214.0
+offset_bottom = 92.0
+scale = Vector2(4.63498, 3.35036)
+text = "Volume"
 
 [connection signal="pressed" from="1" to="." method="_on_1_pressed"]
 [connection signal="pressed" from="1" to="." method="_on__pressed"]
