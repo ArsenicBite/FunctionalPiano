@@ -1,23 +1,35 @@
-[gd_scene load_steps=5 format=3 uid="uid://dyne4eq26lffm"]
+[gd_scene load_steps=7 format=3 uid="uid://dyne4eq26lffm"]
 
 [ext_resource type="Script" path="res://home_page.gd" id="1_uhyve"]
+[ext_resource type="Texture2D" uid="uid://bspokuqcsqgss" path="res://Background.png" id="2_gp2ah"]
 [ext_resource type="Texture2D" uid="uid://c5yr6cp2hl660" path="res://Buttons/Start Button.png" id="2_s2f2k"]
 [ext_resource type="Texture2D" uid="uid://b0bdhib6j6g8t" path="res://Buttons/Start Button Pressed.png" id="3_1rvdm"]
 [ext_resource type="Script" path="res://play.gd" id="3_gpnl3"]
+[ext_resource type="Texture2D" uid="uid://dq60w515oo0ve" path="res://pngimg.com - music_notes_PNG33.png" id="6_irfwd"]
 
 [node name="Scene" type="Node2D"]
 script = ExtResource("1_uhyve")
 
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(591.945, 333)
+scale = Vector2(0.611516, 0.624074)
+texture = ExtResource("2_gp2ah")
+
 [node name="Play" type="TextureButton" parent="."]
-offset_left = 487.0
-offset_top = 277.0
-offset_right = 631.0
-offset_bottom = 349.0
+offset_left = 513.0
+offset_top = 55.0
+offset_right = 657.0
+offset_bottom = 127.0
 scale = Vector2(1.06986, 1.05474)
 texture_normal = ExtResource("2_s2f2k")
 texture_hover = ExtResource("3_1rvdm")
 stretch_mode = 0
 script = ExtResource("3_gpnl3")
 metadata/_edit_use_anchors_ = true
+
+[node name="Pngimg_com-MusicNotesPng33" type="Sprite2D" parent="."]
+position = Vector2(601, 340)
+scale = Vector2(0.468634, 0.495537)
+texture = ExtResource("6_irfwd")
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]

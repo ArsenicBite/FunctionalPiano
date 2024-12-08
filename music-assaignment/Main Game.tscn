@@ -1,7 +1,8 @@
-[gd_scene load_steps=51 format=3 uid="uid://f4l24y60fp4l"]
+[gd_scene load_steps=52 format=3 uid="uid://f4l24y60fp4l"]
 
 [ext_resource type="Script" path="res://main_game.gd" id="1_12jo7"]
 [ext_resource type="Texture2D" uid="uid://ddjsjggigx3fy" path="res://LIANOtopview_1024x1024.webp" id="1_kd62o"]
+[ext_resource type="Texture2D" uid="uid://bspokuqcsqgss" path="res://Background.png" id="2_nyht8"]
 [ext_resource type="AudioStream" uid="uid://cjjdt86aolnfx" path="res://Sounds/448540__tedagame__c1.ogg" id="3_tpdie"]
 [ext_resource type="AudioStream" uid="uid://dtur21d2nvtcw" path="res://Sounds/448542__tedagame__d1.ogg" id="4_kpnbm"]
 [ext_resource type="AudioStream" uid="uid://da0e4je3bwt27" path="res://Sounds/448616__tedagame__e1.ogg" id="5_dtvvn"]
@@ -54,373 +55,377 @@
 [node name="MainGame" type="Node2D"]
 script = ExtResource("1_12jo7")
 
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(660, 422)
+texture = ExtResource("2_nyht8")
+
 [node name="LianOtopview1024x1024" type="Sprite2D" parent="."]
-position = Vector2(577, 148.5)
+position = Vector2(575.002, 338.5)
 scale = Vector2(1.12891, 1.12891)
 texture = ExtResource("1_kd62o")
 
 [node name="1" type="TextureButton" parent="."]
-offset_left = 27.0
-offset_top = 140.0
-offset_right = 67.0
-offset_bottom = 180.0
+offset_left = 25.0019
+offset_top = 330.0
+offset_right = 65.0019
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="2" type="TextureButton" parent="."]
-offset_left = 47.0
-offset_top = 139.0
-offset_right = 87.0
-offset_bottom = 179.0
+offset_left = 45.0019
+offset_top = 329.0
+offset_right = 85.0019
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="3" type="TextureButton" parent="."]
-offset_left = 68.0
-offset_top = 140.0
-offset_right = 108.0
-offset_bottom = 180.0
+offset_left = 66.0019
+offset_top = 330.0
+offset_right = 106.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="4" type="TextureButton" parent="."]
-offset_left = 89.0
-offset_top = 139.0
-offset_right = 129.0
-offset_bottom = 179.0
+offset_left = 87.0019
+offset_top = 329.0
+offset_right = 127.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="5" type="TextureButton" parent="."]
-offset_left = 111.0
-offset_top = 138.0
-offset_right = 151.0
-offset_bottom = 178.0
+offset_left = 109.002
+offset_top = 328.0
+offset_right = 149.002
+offset_bottom = 368.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="6" type="TextureButton" parent="."]
-offset_left = 132.0
-offset_top = 139.0
-offset_right = 172.0
-offset_bottom = 179.0
+offset_left = 130.002
+offset_top = 329.0
+offset_right = 170.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="7" type="TextureButton" parent="."]
-offset_left = 153.0
-offset_top = 139.0
-offset_right = 193.0
-offset_bottom = 179.0
+offset_left = 151.002
+offset_top = 329.0
+offset_right = 191.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="8" type="TextureButton" parent="."]
-offset_left = 174.0
-offset_top = 140.0
-offset_right = 214.0
-offset_bottom = 180.0
+offset_left = 172.002
+offset_top = 330.0
+offset_right = 212.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="9" type="TextureButton" parent="."]
-offset_left = 195.0
-offset_top = 139.0
-offset_right = 235.0
-offset_bottom = 179.0
+offset_left = 193.002
+offset_top = 329.0
+offset_right = 233.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="10" type="TextureButton" parent="."]
-offset_left = 216.0
-offset_top = 140.0
-offset_right = 256.0
-offset_bottom = 180.0
+offset_left = 214.002
+offset_top = 330.0
+offset_right = 254.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="11" type="TextureButton" parent="."]
-offset_left = 237.0
-offset_top = 138.0
-offset_right = 277.0
-offset_bottom = 178.0
+offset_left = 235.002
+offset_top = 328.0
+offset_right = 275.002
+offset_bottom = 368.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="12" type="TextureButton" parent="."]
-offset_left = 259.0
-offset_top = 139.0
-offset_right = 299.0
-offset_bottom = 179.0
+offset_left = 257.002
+offset_top = 329.0
+offset_right = 297.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="13" type="TextureButton" parent="."]
-offset_left = 279.0
-offset_top = 141.0
-offset_right = 319.0
-offset_bottom = 181.0
+offset_left = 277.002
+offset_top = 331.0
+offset_right = 317.002
+offset_bottom = 371.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="14" type="TextureButton" parent="."]
-offset_left = 301.0
-offset_top = 139.0
-offset_right = 341.0
-offset_bottom = 179.0
+offset_left = 299.002
+offset_top = 329.0
+offset_right = 339.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="15" type="TextureButton" parent="."]
-offset_left = 323.0
-offset_top = 140.0
-offset_right = 363.0
-offset_bottom = 180.0
+offset_left = 321.002
+offset_top = 330.0
+offset_right = 361.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="16" type="TextureButton" parent="."]
-offset_left = 343.0
-offset_top = 140.0
-offset_right = 383.0
-offset_bottom = 180.0
+offset_left = 341.002
+offset_top = 330.0
+offset_right = 381.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="17" type="TextureButton" parent="."]
-offset_left = 364.0
-offset_top = 139.0
-offset_right = 404.0
-offset_bottom = 179.0
+offset_left = 362.002
+offset_top = 329.0
+offset_right = 402.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="18" type="TextureButton" parent="."]
-offset_left = 386.0
-offset_top = 139.0
-offset_right = 426.0
-offset_bottom = 179.0
+offset_left = 384.002
+offset_top = 329.0
+offset_right = 424.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="19" type="TextureButton" parent="."]
-offset_left = 407.0
-offset_top = 139.0
-offset_right = 447.0
-offset_bottom = 179.0
+offset_left = 405.002
+offset_top = 329.0
+offset_right = 445.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="20" type="TextureButton" parent="."]
-offset_left = 428.0
-offset_top = 140.0
-offset_right = 468.0
-offset_bottom = 180.0
+offset_left = 426.002
+offset_top = 330.0
+offset_right = 466.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="21" type="TextureButton" parent="."]
-offset_left = 449.0
-offset_top = 140.0
-offset_right = 489.0
-offset_bottom = 180.0
+offset_left = 447.002
+offset_top = 330.0
+offset_right = 487.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="22" type="TextureButton" parent="."]
-offset_left = 470.0
-offset_top = 139.0
-offset_right = 510.0
-offset_bottom = 179.0
+offset_left = 468.002
+offset_top = 329.0
+offset_right = 508.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="23" type="TextureButton" parent="."]
-offset_left = 492.0
-offset_top = 140.0
-offset_right = 532.0
-offset_bottom = 180.0
+offset_left = 490.002
+offset_top = 330.0
+offset_right = 530.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="24" type="TextureButton" parent="."]
-offset_left = 513.0
-offset_top = 139.0
-offset_right = 553.0
-offset_bottom = 179.0
+offset_left = 511.002
+offset_top = 329.0
+offset_right = 551.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="25" type="TextureButton" parent="."]
-offset_left = 534.0
-offset_top = 140.0
-offset_right = 574.0
-offset_bottom = 180.0
+offset_left = 532.002
+offset_top = 330.0
+offset_right = 572.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="26" type="TextureButton" parent="."]
-offset_left = 556.0
-offset_top = 140.0
-offset_right = 596.0
-offset_bottom = 180.0
+offset_left = 554.002
+offset_top = 330.0
+offset_right = 594.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="27" type="TextureButton" parent="."]
-offset_left = 576.0
-offset_top = 140.0
-offset_right = 616.0
-offset_bottom = 180.0
+offset_left = 574.002
+offset_top = 330.0
+offset_right = 614.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="28" type="TextureButton" parent="."]
-offset_left = 598.0
-offset_top = 141.0
-offset_right = 638.0
-offset_bottom = 181.0
+offset_left = 596.002
+offset_top = 331.0
+offset_right = 636.002
+offset_bottom = 371.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="29" type="TextureButton" parent="."]
-offset_left = 619.0
-offset_top = 139.0
-offset_right = 659.0
-offset_bottom = 179.0
+offset_left = 617.002
+offset_top = 329.0
+offset_right = 657.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="30" type="TextureButton" parent="."]
-offset_left = 640.0
-offset_top = 140.0
-offset_right = 680.0
-offset_bottom = 180.0
+offset_left = 638.002
+offset_top = 330.0
+offset_right = 678.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="31" type="TextureButton" parent="."]
-offset_left = 661.0
-offset_top = 139.0
-offset_right = 701.0
-offset_bottom = 179.0
+offset_left = 659.002
+offset_top = 329.0
+offset_right = 699.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="32" type="TextureButton" parent="."]
-offset_left = 683.0
-offset_top = 140.0
-offset_right = 723.0
-offset_bottom = 180.0
+offset_left = 681.002
+offset_top = 330.0
+offset_right = 721.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="33" type="TextureButton" parent="."]
-offset_left = 704.0
-offset_top = 140.0
-offset_right = 744.0
-offset_bottom = 180.0
+offset_left = 702.002
+offset_top = 330.0
+offset_right = 742.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="34" type="TextureButton" parent="."]
-offset_left = 725.0
-offset_top = 139.0
-offset_right = 765.0
-offset_bottom = 179.0
+offset_left = 723.002
+offset_top = 329.0
+offset_right = 763.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="35" type="TextureButton" parent="."]
-offset_left = 746.0
-offset_top = 140.0
-offset_right = 786.0
-offset_bottom = 180.0
+offset_left = 744.002
+offset_top = 330.0
+offset_right = 784.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="36" type="TextureButton" parent="."]
-offset_left = 768.0
-offset_top = 139.0
-offset_right = 808.0
-offset_bottom = 179.0
+offset_left = 766.002
+offset_top = 329.0
+offset_right = 806.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="37" type="TextureButton" parent="."]
-offset_left = 789.0
-offset_top = 139.0
-offset_right = 829.0
-offset_bottom = 179.0
+offset_left = 787.002
+offset_top = 329.0
+offset_right = 827.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="38" type="TextureButton" parent="."]
-offset_left = 810.0
-offset_top = 139.0
-offset_right = 850.0
-offset_bottom = 179.0
+offset_left = 808.002
+offset_top = 329.0
+offset_right = 848.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="39" type="TextureButton" parent="."]
-offset_left = 832.0
-offset_top = 139.0
-offset_right = 872.0
-offset_bottom = 179.0
+offset_left = 830.002
+offset_top = 329.0
+offset_right = 870.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="40" type="TextureButton" parent="."]
-offset_left = 853.0
-offset_top = 139.0
-offset_right = 893.0
-offset_bottom = 179.0
+offset_left = 851.002
+offset_top = 329.0
+offset_right = 891.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="41" type="TextureButton" parent="."]
-offset_left = 874.0
-offset_top = 139.0
-offset_right = 914.0
-offset_bottom = 179.0
+offset_left = 872.002
+offset_top = 329.0
+offset_right = 912.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="42" type="TextureButton" parent="."]
-offset_left = 895.0
-offset_top = 139.0
-offset_right = 935.0
-offset_bottom = 179.0
+offset_left = 893.002
+offset_top = 329.0
+offset_right = 933.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="43" type="TextureButton" parent="."]
-offset_left = 917.0
-offset_top = 140.0
-offset_right = 957.0
-offset_bottom = 180.0
+offset_left = 915.002
+offset_top = 330.0
+offset_right = 955.002
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="44" type="TextureButton" parent="."]
-offset_left = 939.0
-offset_top = 139.0
-offset_right = 979.0
-offset_bottom = 179.0
+offset_left = 937.002
+offset_top = 329.0
+offset_right = 977.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="45" type="TextureButton" parent="."]
-offset_left = 959.0
-offset_top = 139.0
-offset_right = 999.0
-offset_bottom = 179.0
+offset_left = 957.002
+offset_top = 329.0
+offset_right = 997.002
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="46" type="TextureButton" parent="."]
-offset_left = 981.0
-offset_top = 139.0
-offset_right = 1021.0
-offset_bottom = 179.0
+offset_left = 979.002
+offset_top = 329.0
+offset_right = 1019.0
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="47" type="TextureButton" parent="."]
-offset_left = 1003.0
-offset_top = 139.0
-offset_right = 1043.0
-offset_bottom = 179.0
+offset_left = 1001.0
+offset_top = 329.0
+offset_right = 1041.0
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="48" type="TextureButton" parent="."]
-offset_left = 1024.0
-offset_top = 140.0
-offset_right = 1064.0
-offset_bottom = 180.0
+offset_left = 1022.0
+offset_top = 330.0
+offset_right = 1062.0
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="49" type="TextureButton" parent="."]
-offset_left = 1045.0
-offset_top = 140.0
-offset_right = 1085.0
-offset_bottom = 180.0
+offset_left = 1043.0
+offset_top = 330.0
+offset_right = 1083.0
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="50" type="TextureButton" parent="."]
-offset_left = 1067.0
-offset_top = 140.0
-offset_right = 1107.0
-offset_bottom = 180.0
+offset_left = 1065.0
+offset_top = 330.0
+offset_right = 1105.0
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="51" type="TextureButton" parent="."]
-offset_left = 1088.0
-offset_top = 140.0
-offset_right = 1128.0
-offset_bottom = 180.0
+offset_left = 1086.0
+offset_top = 330.0
+offset_right = 1126.0
+offset_bottom = 370.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="52" type="TextureButton" parent="."]
-offset_left = 1109.0
-offset_top = 139.0
-offset_right = 1149.0
-offset_bottom = 179.0
+offset_left = 1107.0
+offset_top = 329.0
+offset_right = 1147.0
+offset_bottom = 369.0
 scale = Vector2(0.460909, 3.21949)
 
 [node name="(1)" type="AudioStreamPlayer" parent="."]
@@ -580,10 +585,10 @@ stream = ExtResource("49_yddmm")
 stream = ExtResource("49_yddmm")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 36.0
-offset_top = 329.0
-offset_right = 76.0
-offset_bottom = 352.0
+offset_left = 1030.0
+offset_top = 97.0
+offset_right = 1070.0
+offset_bottom = 120.0
 
 [node name="Label2" type="Label" parent="."]
 offset_left = 18.0
@@ -593,10 +598,10 @@ offset_bottom = 573.0
 scale = Vector2(1.88721, 2.10345)
 
 [node name="HSlider" parent="." instance=ExtResource("50_8d6dq")]
-offset_left = 581.0
-offset_top = 458.0
-offset_right = 1152.0
-offset_bottom = 731.0
+offset_left = 349.0
+offset_top = -22.0
+offset_right = 920.0
+offset_bottom = 251.0
 value = 1.0
 
 [node name="RichTextLabel" type="RichTextLabel" parent="HSlider"]
@@ -609,19 +614,19 @@ scale = Vector2(4.63498, 3.35036)
 text = "Volume"
 
 [connection signal="pressed" from="1" to="." method="_on_1_pressed"]
-[connection signal="pressed" from="1" to="." method="_on__pressed"]
 [connection signal="pressed" from="1" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="1" to="." method="_on__pressed"]
 [connection signal="pressed" from="2" to="." method="_on_2_pressed"]
-[connection signal="pressed" from="2" to="." method="_on__pressed"]
 [connection signal="pressed" from="2" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="2" to="." method="_on__pressed"]
 [connection signal="pressed" from="3" to="." method="_on_3_pressed"]
 [connection signal="pressed" from="3" to="." method="_on_texture_button_pressed"]
 [connection signal="pressed" from="4" to="." method="_on_4_pressed"]
-[connection signal="pressed" from="4" to="." method="_on__pressed"]
 [connection signal="pressed" from="4" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="4" to="." method="_on__pressed"]
 [connection signal="pressed" from="5" to="." method="_on_5_pressed"]
-[connection signal="pressed" from="5" to="." method="_on__pressed"]
 [connection signal="pressed" from="5" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="5" to="." method="_on__pressed"]
 [connection signal="pressed" from="6" to="." method="_on_6_pressed"]
 [connection signal="pressed" from="6" to="." method="_on_texture_button_pressed"]
 [connection signal="pressed" from="7" to="." method="_on_7_pressed"]
@@ -643,8 +648,8 @@ text = "Volume"
 [connection signal="pressed" from="15" to="." method="_on_15_pressed"]
 [connection signal="pressed" from="15" to="." method="_on_texture_button_pressed"]
 [connection signal="pressed" from="16" to="." method="_on_16_pressed"]
-[connection signal="pressed" from="16" to="." method="_on__pressed"]
 [connection signal="pressed" from="16" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="16" to="." method="_on__pressed"]
 [connection signal="pressed" from="17" to="." method="_on_17_pressed"]
 [connection signal="pressed" from="17" to="." method="_on_texture_button_pressed"]
 [connection signal="pressed" from="18" to="." method="_on_18_pressed"]
@@ -658,11 +663,11 @@ text = "Volume"
 [connection signal="pressed" from="22" to="." method="_on_22_pressed"]
 [connection signal="pressed" from="22" to="." method="_on_texture_button_pressed"]
 [connection signal="pressed" from="23" to="." method="_on_23_pressed"]
-[connection signal="pressed" from="23" to="." method="_on__pressed"]
 [connection signal="pressed" from="23" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="23" to="." method="_on__pressed"]
 [connection signal="pressed" from="24" to="." method="_on_24_pressed"]
-[connection signal="pressed" from="24" to="." method="_on__pressed"]
 [connection signal="pressed" from="24" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="24" to="." method="_on__pressed"]
 [connection signal="pressed" from="25" to="." method="_on_25_pressed"]
 [connection signal="pressed" from="25" to="." method="_on_texture_button_pressed"]
 [connection signal="pressed" from="26" to="." method="_on_26_pressed"]
